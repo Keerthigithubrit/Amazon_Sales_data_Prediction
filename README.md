@@ -1,8 +1,5 @@
 # Amazon_Sales_data_Prediction
 
-report = f"""
-## Amazon Sales Data Prediction – Conclusion
-
 ### 1️⃣ Time Series Analysis
 - Total revenue in 2023 is slightly higher than in 2022, indicating steady growth.
 - Monthly sales: **January** has the highest revenue, **February** the lowest.
@@ -48,7 +45,7 @@ report = f"""
    - Random Forest: highly accurate revenue predictions.
 4. **Seasonality:** Peak months (January, Q3) should be targeted for marketing campaigns.
 > **Key Recommendation:** Combine **demand forecasting** (Random Forest) with **feature impact analysis** (Linear Regression) to guide inventory, pricing, and promotions for maximizing Amazon revenue.
-"""
+
 
 
 from IPython.display import display, Markdown
